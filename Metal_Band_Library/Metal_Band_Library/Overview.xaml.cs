@@ -1,5 +1,4 @@
-﻿using Metal_Band_Library.Library_Data;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,26 +10,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Metal_Band_Library
+namespace Metal_Band_Library.Library_Data
 {
     /// <summary>
-    /// Interaktionslogik für MainWindow.xaml
+    /// Interaktionslogik für Overview.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Overview : Window
     {
-        public MainWindow()
+        public Overview()
         {
             InitializeComponent();
         }
 
-        private void Next_Button_Click(object sender, RoutedEventArgs e)
+        private void Look_for_bands_Click(object sender, RoutedEventArgs e)
         {
-            Overview overview = new Overview();
-            overview.Show();
-            this.Close();
+
         }
     }
 }

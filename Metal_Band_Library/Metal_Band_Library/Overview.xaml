@@ -1,12 +1,12 @@
-﻿<Window x:Class="Metal_Band_Library.MainWindow"
+﻿<Window x:Class="Metal_Band_Library.Library_Data.Overview"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Metal_Band_Library"
+        xmlns:local="clr-namespace:Metal_Band_Library.Library_Data"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button Name="Next_Button" Click="Next_Button_Click" Content="Start" Margin="327,170,327,202" FontSize="20"/>
+        Title="Overview" Height="450" Width="800">
+    <Grid Margin="0,0,439,362">
+        <Button Click="Look_for_bands_Click" Name="Look_for_bands" Margin="140,179,-140,-179"/>
     </Grid>
 </Window>
